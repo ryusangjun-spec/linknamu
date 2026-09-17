@@ -15,7 +15,11 @@ export default function Home() {
       <div className="flex w-full justify-end">
         <DarkModeToggle />
       </div>
-      <Profile name="김클로" bio="세계 최강 바이브코더" imageUrl="/profile.svg" />
+      <Profile
+        name="김개발"
+        bio="풀스택 개발자 : 요즘에는 AI 개발에 관심이 많아요"
+        imageUrl="/profile.jpg"
+      />
       <LinkCardList links={links} />
     </main>
   );
